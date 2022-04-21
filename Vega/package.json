@@ -8,6 +8,10 @@
 	"engines": {
 		"vscode": "^1.63.0"
 	},
+	"repository" : {
+		"type": "git",
+		"url": "https://github.com/ray-concepts/VSC-Themes/tree/main/Vega"
+	},
 	"scripts": {
 		"build": "ts-node src/index.ts",
 		"build:ext": "vsce package --no-yarn",
